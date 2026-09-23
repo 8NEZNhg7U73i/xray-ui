@@ -2716,8 +2716,6 @@ class Inbound extends XrayCommonClass {
             if (!this.settings.encryption) {
                 this.settings.encryption = 'none';
             }
-            this.tls = false;
-            this.reality = false;
             return;
         }
 
