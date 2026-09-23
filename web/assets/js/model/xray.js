@@ -2720,8 +2720,6 @@ class Inbound extends XrayCommonClass {
         }
 
         this.settings.selectedAuth = undefined;
-        this.settings.decryption = 'none';
-        this.settings.encryption = '';
     }
 
     // canSockopt() {
